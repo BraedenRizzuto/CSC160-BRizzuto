@@ -22,6 +22,23 @@ public class CheckSheetIf {
 		System.out.print("Enter Third Number");
 		numThree=input.nextInt();
 		}
+		System.out.println( numOne+numTwo=sNumOneNumTwo);
+		sNumOneNumTwo = scnr.nextLine();
+		If numOne > numThree
+		{
+		System.out.println(“numOne’);
+		}
+		Else
+		If numTwo>numThree
+		{
+		System.out.println(“numTwo”);
+		}
+		Else
+		If numThree> numOne and numTwo
+		{
+		System.out.println(“numThree”);
+		}
+
 	}
 
 }

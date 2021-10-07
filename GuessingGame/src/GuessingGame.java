@@ -14,20 +14,18 @@ public class GuessingGame {
 		input= new Scanner(System.in);
 		int guess; // User's guess
 		Random randGen; //Random generator object
-		// TODO Auto-generated method stub
-		
+		randGen = new Random();
 		System.out.println("what is your guess?");
 			// getting users guess
 		guess = input.nextInt(); 
 		System.out.println("the guess is" + guess);
 		guess = input.nextInt();
 		
-		randGen = new Random();
 		int answer; // random computer generated number
 		
 			// formula is (high minus low + 1) + low
 		answer = randGen.nextInt(20 - 10 + 1) + 10;
-		System.out.println("the guess is" + guess);
+		System.out.println("the answer is"+ answer);
 		
 	}
 
