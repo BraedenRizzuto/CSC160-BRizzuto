@@ -23,6 +23,7 @@ public class GuessingGame {
 		
 		int answer; // random computer generated number
 		
+		
 			// formula is (high minus low + 1) + low
 		answer = randGen.nextInt(20 - 10 + 1) + 10;
 		System.out.println("the answer is"+ answer);

@@ -24,17 +24,17 @@ public class CheckSheetIf {
 		}
 		System.out.println( numOne+numTwo=sNumOneNumTwo);
 		sNumOneNumTwo = scnr.nextLine();
-		If numOne > numThree
+		if numOne > numThree
 		{
 		System.out.println(“numOne’);
 		}
-		Else
-		If numTwo>numThree
+		else
+		if numTwo>numThree
 		{
 		System.out.println(“numTwo”);
 		}
-		Else
-		If numThree> numOne and numTwo
+		else
+		if numThree> numOne and numTwo
 		{
 		System.out.println(“numThree”);
 		}
